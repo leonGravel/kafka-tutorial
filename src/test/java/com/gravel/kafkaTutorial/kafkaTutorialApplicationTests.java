@@ -1,4 +1,4 @@
-package com.gravel.kafkademo;
+package com.gravel.kafkaTutorial;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class KafkademoApplicationTests {
+public class kafkaTutorialApplicationTests {
 
     @Test
     public void contextLoads() {

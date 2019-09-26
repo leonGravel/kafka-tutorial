@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.gravel</groupId>
-    <artifactId>kafkademo</artifactId>
+    <artifactId>kafka-tutorial</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>kafkademo</name>
+    <name>kafka-tutorial</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
