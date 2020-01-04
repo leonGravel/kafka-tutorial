@@ -23,11 +23,11 @@ public class KafkaProducer implements ApplicationListener<ApplicationReadyEvent>
     @Override
     public void onApplicationEvent(ApplicationReadyEvent event) {
         log.info("start producer 10 message ");
-//        for (int i = 0; i < 10; i++) {
-//            kafkaTemplate.send("showcase-1", UUID.randomUUID().toString(), "i" + i);
-//            kafkaTemplate.send("showcase-2", UUID.randomUUID().toString(), "i" + i);
-//            kafkaTemplate.send("showcase-3", UUID.randomUUID().toString(), "i" + i);
-//
-//        }
+        for (int i = 0; i < 10; i++) {
+            kafkaTemplate.send("showcase-1", UUID.randomUUID().toString(), "i" + i);
+            kafkaTemplate.send("showcase-2", UUID.randomUUID().toString(), "i" + i);
+            kafkaTemplate.send("showcase-3", UUID.randomUUID().toString(), "i" + i);
+
+        }
     }
 }
